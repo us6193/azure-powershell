@@ -1,6 +1,6 @@
 {
   "ModuleName": "Az.Sphere",
-  "ModuleVersion": "0.1.0",
+  "ModuleVersion": "0.1.1",
   "Cmdlets": [
     {
       "VerbName": "Get",

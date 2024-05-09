@@ -1,3 +1,122 @@
+## 12.0.0 - May 2024
+#### Az.Accounts 3.0.0
+* Supported auto-discovery of the endpoint of OperationalInsights (azure-powershell-common/pull/414)
+* Updated the reference of Azure PowerShell Common to 1.3.94-preview.
+* [Breaking Change] Removed config 'DisableErrorRecordsPersistence' to disable writing error records, error recording is now opt-in
+* Added config 'EnableErrorRecordsPersistence' to enable writing error records to file system
+
+#### Az.AnalysisServices 1.1.5
+* Removed the outdated deps.json file.
+
+#### Az.ApiManagement 4.0.3
+* Removed the outdated deps.json file.
+
+#### Az.Billing 2.0.4
+* Removed the outdated deps.json file.
+
+#### Az.Compute 8.0.0
+* Added 'Etag' property to PSVirtualMachine and PSVirtualMachineScaleSet objects.   
+* Added parameters '-IfMatch' and '-IfNoneMatch' to 'Update-AzVM', 'Update-AzVmss', 'New-AzVm', 'New-AzVmss', 'New-AzVmConfig', and 'New-AzVmssConfig' cmdlets.
+
+#### Az.DataBoxEdge 1.1.1
+* Removed the outdated deps.json file.
+
+#### Az.DataFactory 1.18.4
+* Updated ADF encryption client SDK version to 5.29.8499.2
+
+#### Az.DataLakeStore 1.3.1
+* Removed the outdated deps.json file.
+
+#### Az.DataShare 1.0.2
+* Removed the outdated deps.json file.
+
+#### Az.DevTestLabs 1.0.3
+* Removed the outdated deps.json file.
+
+#### Az.DnsResolver 1.0.0
+* General availability for module Az.DnsResolver
+
+#### Az.EventGrid 2.0.0
+* Updated to use the 2023-06-01-preview API version.
+
+#### Az.EventHub 5.0.0
+* Moved cmdlets to V4
+
+#### Az.FrontDoor 1.10.1
+* Removed the outdated deps.json file.
+
+#### Az.IotHub 2.7.6
+* Removed the outdated deps.json file.
+
+#### Az.KeyVault 6.0.0
+* [Breaking change] Removed parameter 'Value' from 'Invoke-AzKeyVaultKeyOperation'.
+* [Breaking change] Removed property 'Result' from the output type 'PSKeyOperationResult' of 'Invoke-AzKeyVaultKeyOperation'.
+* [Breaking Change] Replaced parameter 'EnableRbacAuthorization' by 'DisableRbacAuthorization' in 'New-AzKeyVault' and 'Update-AzKeyVault'.
+    - RBAC will be enabled by default during the process of key vault creation. 
+
+#### Az.MachineLearning 1.1.4
+* Removed the outdated deps.json file.
+
+#### Az.MachineLearningServices 1.0.1
+* Removed the outdated deps.json file.
+
+#### Az.Network 7.6.0
+* Added support for ApplicationGatewaySkuFamily 
+* Updated cmdlet to add the property of JSChallengeCookieExpirationInMins
+    - 'New-AzApplicationGatewayFirewallPolicySetting'
+* Added optional property 'HeaderValueMatcher' to 'New-AzApplicationGatewayRewriteRuleHeaderConfiguration'
+* Added new cmdlet 'New-AzApplicationGatewayHeaderValueMatcher' to support for the new property 'HeaderValueMatcher'
+
+#### Az.OperationalInsights 3.2.1
+* Removed the outdated deps.json file.
+
+#### Az.PrivateDns 1.0.5
+* Removed the outdated deps.json file.
+
+#### Az.RecoveryServices 7.0.0
+* [Breaking Change] Renamed the property 'ResouceType' of 'ASRVaultSettings' to 'ResourceType'. 
+
+#### Az.RedisCache 1.9.1
+* Fixed pattern for access policy resource names
+
+#### Az.Resources 7.1.0
+* [Breaking Change] Redesigned CRUD cmdlets for 'PolicyAssignment', 'PolicyDefinition', 'PolicyExemption', 'PolicySetDefinition'. Please see Az 12 migration guide https://learn.microsoft.com/en-us/powershell/azure/migrate-az-12.0.0 for more detail.
+* Added null check to the permissions object in the ToPSRoleDefinition method to return if the whole permissions object array is null.
+
+#### Az.Security 1.6.3
+* Update the synopsis
+
+#### Az.ServiceBus 4.0.0
+* Moved cmdlets to V4.
+
+#### Az.ServiceFabric 3.3.3
+* Updated location of nodeType to use cluster location in stead of resource group location
+
+#### Az.Sql 4.15.0
+* Added 'ManualCutover' and 'PerformCutover' parameters to 'Set-AzSqlInstance' for Azure Sql Sterling database to Azure Sql Hyperscale database
+* Added 'OperationPhaseDetails' parameter to 'Get-AzSqlDatabaseActivity' and updated 'DatabaseOperations' Api to version '2022-11-01-preview' for .Net Sdk
+
+#### Az.StackHCIVM 1.0.4
+* Update the synopsis
+* Fixed the placeholder in psd1 file.
+
+#### Az.Storage 7.0.0
+* Update the synopsis
+* Added a prompt that needs confirmation when upgrading a storage account from StorageV1 or BlobStorage to StorageV2. Can be suppressed with -Force.
+    - 'Set-AzStorageAccount'
+* Removed references to 'Microsoft.Azure.Storage.Queue' in Queue cmdlets 
+    - 'Get-AzStorageQueue'
+    - 'New-AzStorageQueue'
+    - 'New-AzStorageQueueSASToken'
+* When uploading an Azure File with write only SAS token, take the parameter -Path as destination file path, instead of destination directory path previously.
+    - 'Set-AzStorageFileContent'
+
+#### Az.Support 2.0.0
+* Converted Az.Support to autorest-based module.
+
+#### Az.Synapse 3.0.8
+* Upgraded 'Microsoft.DataTransfer.Gateway.Encryption' to '5.29.8499.2'
+
 ## 11.6.0 - April 2024
 #### General
 * Introduced secrets detection feature to safeguard sensitive data.

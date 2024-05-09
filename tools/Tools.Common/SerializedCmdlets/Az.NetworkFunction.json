@@ -1,6 +1,6 @@
 {
   "ModuleName": "Az.NetworkFunction",
-  "ModuleVersion": "0.1.3",
+  "ModuleVersion": "0.1.4",
   "Cmdlets": [
     {
       "VerbName": "Get",

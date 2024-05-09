@@ -19,6 +19,8 @@
 --->
 
 ## Upcoming Release
+
+## Version 7.6.0
 * Added support for ApplicationGatewaySkuFamily 
 * Updated cmdlet to add the property of JSChallengeCookieExpirationInMins
     - `New-AzApplicationGatewayFirewallPolicySetting`

@@ -19,6 +19,8 @@
 -->
 
 ## Upcoming Release
+
+## Version 3.0.0
 * Supported auto-discovery of the endpoint of OperationalInsights (azure-powershell-common/pull/414)
 * Updated the reference of Azure PowerShell Common to 1.3.94-preview.
 * [Breaking Change] Removed config `DisableErrorRecordsPersistence` to disable writing error records, error recording is now opt-in

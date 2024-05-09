@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 0.7.3
 * Update the synopsis
 
 ## Version 0.7.2
