@@ -19,6 +19,8 @@
 -->
 
 ## Upcoming Release
+
+## Version 3.2.1
 * Removed the outdated deps.json file.
 
 ## Version 3.2.0
