@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 6.0.0
 * [Breaking change] Removed parameter `Value` from `Invoke-AzKeyVaultKeyOperation`.
 * [Breaking change] Removed property `Result` from the output type `PSKeyOperationResult` of `Invoke-AzKeyVaultKeyOperation`.
 * [Breaking Change] Replaced parameter `EnableRbacAuthorization` by `DisableRbacAuthorization` in `New-AzKeyVault` and `Update-AzKeyVault`.
