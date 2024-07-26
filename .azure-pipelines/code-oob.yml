@@ -9,6 +9,7 @@ parameters:
   default: false
 variables:
   BumpUpBranch: none
+  Codeql.Enabled: false
 stages:
 - stage: OOBRelease
   displayName: OOBRelease

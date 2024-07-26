@@ -1,3 +1,6 @@
+variables:
+  Codeql.Enabled: false
+
 pr: none
 trigger: none
 pool: pool-windows-2019

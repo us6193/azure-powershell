@@ -15,6 +15,7 @@ trigger:
 variables:
   TargetedRepo: azure-docs-powershell
   TargetedBranchName: sync-upcoming-breaking-changes
+  Codeql.Enabled: false
 
 jobs:
 - job: Sync

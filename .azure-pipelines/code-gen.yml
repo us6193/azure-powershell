@@ -9,6 +9,9 @@ parameters:
   type: string
   default: Databricks
 
+variables:
+  Codeql.Enabled: false
+  
 resources:
   repositories:
   - repository: self

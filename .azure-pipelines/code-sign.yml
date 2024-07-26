@@ -11,6 +11,10 @@ parameters:
   displayName: Build Installer
   type: boolean
   default: true
+
+variables:
+  Codeql.Enabled: false
+
 jobs:
 - job: Release
   timeoutInMinutes: 180

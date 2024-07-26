@@ -23,6 +23,9 @@ parameters:
   displayName: Input change log message for the Autorest modules
   type: string
 
+variables:
+  Codeql.Enabled: false
+  
 pr: none
 trigger: none
 

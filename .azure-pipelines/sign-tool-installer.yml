@@ -1,3 +1,6 @@
+variables:
+  Codeql.Enabled: false
+
 trigger: none
 pr: none
 

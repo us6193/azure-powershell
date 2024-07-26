@@ -43,6 +43,7 @@ variables:
   linuxAgentPoolVMImage: ''
   macOsAgentPoolName: Azure Pipelines
   macOsAgentPoolVMImage: macOS-latest
+  Codeql.Enabled: false
 
 pr: none
 trigger: none

@@ -26,6 +26,7 @@ trigger:
       
 variables:
   GenerationBranchName: generation
+  Codeql.Enabled: false
 
 jobs:
 - job: Sync
